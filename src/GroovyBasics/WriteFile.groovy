@@ -1,6 +1,6 @@
 package GroovyBasics
 
-File Myfile = new File('C:/Eclipse/Groovy programs/MyFirstGroovyproject/Data file 3.txt')
+File Myfile = new File('C:/Users/manok/Documents/GitHub/Groovy/Data file 3.txt')
 Myfile.write("Line 1")
 Myfile << "\nLine 2"
 Myfile.text = "Line 3" // Overwrites everything in the file

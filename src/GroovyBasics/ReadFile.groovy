@@ -1,7 +1,7 @@
 package GroovyBasics
 
 //Reading a file 
-String filePath = "C:/Eclipse/Groovy programs/MyFirstGroovyproject/Data file 1.txt"
+String filePath = "C:/Users/manok/Documents/GitHub/Groovy/Data file 1.txt"
 File Myfile= new File(filePath)
 
 //as String
@@ -60,12 +60,12 @@ println Myfile.isFile()
 println Myfile.isDirectory()
 
 //Get list of files from a directory
-new File("C:/Eclipse/Groovy programs/MyFirstGroovyproject").eachFile{
+new File("C:/Users/manok/Documents/GitHub/Groovy").eachFile{
 	file -> println file.getAbsolutePath()
 }
 
 //Recursively display all files in a dir and its Subdirectoty
-new File("C:/Eclipse/Groovy programs/MyFirstGroovyproject").eachFileRecurse { 
+new File("C:/Users/manok/Documents/GitHub/Groovy").eachFileRecurse { 
 	file -> println file.getAbsolutePath()
 }
 
